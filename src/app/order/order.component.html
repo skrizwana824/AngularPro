@@ -1,0 +1,46 @@
+
+  <div class="container mt-5">
+    <div class="row justify-content-center">
+      <div class="col-lg-6">
+        <form>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" required>
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone</label>
+            <input type="tel" class="form-control" id="phone" required>
+          </div>
+          <div class="form-group">
+            <label for="address">Address</label>
+            <textarea class="form-control" id="address" rows="3" required></textarea>
+          </div>
+          <div class="form-group">
+            <label for="plantType">Plant Type</label>
+            <select class="form-control" id="plantType" required>
+              <option value="">Select Plant Type</option>
+              <option value="Succulent">Succulent</option>
+              <option value="Fern">Fern</option>
+              <option value="Orchid">Orchid</option>
+              <option value="Cactus">Cactus</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="quantity">Quantity</label>
+            <input type="number" class="form-control" id="quantity" required>
+          </div>
+          <div class="form-group">
+            <label for="deliveryDate">Delivery Date</label>
+            <input type="date" class="form-control" id="deliveryDate" required>
+          </div>
+          <button type="submit" class="btn btn-primary" routerLink="/payment">Place Order</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+

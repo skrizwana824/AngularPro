@@ -1,0 +1,13 @@
+mat-toolbar{
+    background: rgb(0,100,0);
+    color:#fff;
+    font-family: sans-serif;
+    text-align: center;
+    
+}
+a:hover{
+    background: #2bab0d;
+    border-radius:3px;}
+.spa{
+    flex:1 1 auto;
+}
